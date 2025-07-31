@@ -1,0 +1,11 @@
+/* Restaurant.css */
+
+.restaurant-sidebar h3 {
+    font-size: 1.2rem;  /* adjust size as needed */
+    color: #ff2442;
+}
+
+.restaurant-sidebar .p-button {
+    font-size: 0.9rem;  /* smaller button text */
+    color: #333;
+}

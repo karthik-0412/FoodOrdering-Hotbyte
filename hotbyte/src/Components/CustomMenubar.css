@@ -1,0 +1,30 @@
+.custom-menu-link {
+  color: black !important;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin: 0 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-menu-link:hover {
+  background-color: #f97316; /* orange hover background */
+  color: white !important;
+}
+
+.active-menu-item {
+  background-color: #f97316 !important; /* orange background for active item */
+  color: white !important;
+  font-weight: bold;
+}
+
+.custom-menu-link .pi-shopping-cart {
+    position: relative;
+}
+
+.custom-menu-link .p-badge {
+    font-size: 0.6rem;
+    height: 1rem;
+    min-width: 1rem;
+    line-height: 1rem;
+}

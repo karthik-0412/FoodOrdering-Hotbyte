@@ -1,0 +1,69 @@
+.my-orders-container {
+  background: #f9f9f9;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.my-orders-container h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.order-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.order-status {
+  text-align: right;
+}
+
+.order-price {
+  font-size: 1.2rem;
+  color: #f97316;
+  font-weight: bold;
+}
+
+.order-summary {
+  margin-top: 1rem;
+}
+
+.order-item-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-review {
+  margin-top: 1rem;
+  background: #fff7e6;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ffe58f;
+}
+
+.order-info-actions {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.order-info p {
+  margin: 0;
+}
+
+.order-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
